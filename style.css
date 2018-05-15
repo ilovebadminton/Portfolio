@@ -1,0 +1,127 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px 10px;
+  
+
+  
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right:50px;
+  font-family: 'Pacifico', cursive;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.header a:hover {
+  background-color:white;
+  color:black;
+}
+.header a.active {
+  background-color: white;
+  color: black;
+}
+
+
+.header-right {
+  float: right;
+}
+#boxes{
+	margin-top:20px;
+}
+#boxes .boxes{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:center;
+	margin-left:180px;
+	
+}
+#boxes .boxes img{
+	width:100px;
+	
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: inline-block;
+    text-align: left;
+	
+	
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+#show{
+	min-height:400px;
+	
+	background-position:center;
+	text-align:center;
+	font-size:190%;
+	font-family: 'Pangolin', cursive;
+}
+
+#d{
+	font-family:'Pangolin', cursive;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 45px;
+  text-align:center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	
+}
+
+.fa-facebook {
+  background: #FFFFFF;
+  color: black;
+}
+.fa-linkedin {
+  background: #FFFFFF;
+  color: black;
+}
+
+.fa-youtube {
+  background: #FFFFFF;
+  color: black;
+}
+
+.fa-instagram {
+  background: #FFFFFF;
+  color: black;
+}
+
+.fa-google {
+  background: #FFFFFF;
+  color: black;
+}

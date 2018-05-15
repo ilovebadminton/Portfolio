@@ -1,0 +1,107 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px 10px;
+  
+
+  
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right:50px;
+  font-family: 'Pacifico', cursive;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.header a:hover {
+  background-color:white;
+  color:black;
+}
+.header a.active {
+  background-color: white;
+  color: black;
+}
+
+
+.header-right {
+  float: right;
+}
+#boxes1{
+	margin-top:20px;
+
+}
+
+#boxes1 .boxes11 img{
+	width:150px;
+	
+}
+#boxes1 .boxes12 img{
+	width:150px;
+	
+}
+#boxes1 .boxes13 img{
+	width:150px;
+	
+}
+
+.boxes11{
+	float:left;
+	margin-left:180px;
+}
+
+.boxes12{
+	float:left;
+	margin-left:250px;
+	margin-bottom:-16px;
+}
+ 
+ 
+.boxes13{
+	float:right;
+	margin-right:120px;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: inline-block;
+    text-align: left;
+	
+	
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+#show{
+	min-height:400px;
+	
+	background-position:center;
+	text-align:center;
+	font-size:190%;
+	font-family: 'Pangolin', cursive;
+}
+
+#d{
+	font-family:'Pangolin', cursive;
+}
